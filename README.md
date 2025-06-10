@@ -1,4 +1,4 @@
-# Employee Scraper Project  
+# Scraping Employee Data from API
 
 ## Overview  
 This project scrapes employee details from a public API at  
