@@ -27,7 +27,8 @@ def fetch_employee_data():
             with open("employees.json", "w") as f:
                 json.dump(data, f, indent=4)
 
-            logging.info(f"Data saved successfully: {len(data)} employees stored in 'scraper_data.json'")
+            logging.info(f"Data saved successfully: {len(data)} employees stored in 'employee.json'")
+            
 
         else:
             logging.error("Unexpected data format: Expected a list.")
